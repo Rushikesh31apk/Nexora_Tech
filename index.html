@@ -596,7 +596,7 @@
             color: #808080;
         }
 
-        
+
 
         .contact-info {
             display: flex;
@@ -720,6 +720,83 @@
                 width: 150px;
                 height: 150px;
                 margin-bottom: 1rem;
+            }
+        }
+
+        /* ===== Navbar Mobile Fix ===== */
+        @media (max-width: 768px) {
+            .navbar {
+                padding: 10px 0;
+            }
+
+            .navbar-brand {
+                font-size: 1.4rem;
+            }
+
+            .navbar-brand img {
+                height: 32px;
+            }
+
+            .navbar-nav {
+                text-align: center;
+                padding-top: 10px;
+            }
+
+            .navbar-nav .nav-link {
+                margin: 6px 0;
+                padding: 10px 15px !important;
+                font-size: 1rem;
+            }
+        }
+
+
+        /* ===== Mobile Friendly Lecture Button ===== */
+        @media (max-width: 576px) {
+            .lecture-btn {
+                width: 100%;
+                max-width: 320px;
+                padding: 12px 18px;
+                font-size: 0.95rem;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                gap: 8px;
+                border-radius: 40px;
+                text-align: center;
+                white-space: normal;
+            }
+
+            .lecture-btn i {
+                font-size: 1rem;
+            }
+        }
+
+        /* ===== White Hamburger Menu Icon ===== */
+        .navbar-toggler {
+            border: 2px solid rgba(255, 255, 255, 0.7);
+            padding: 6px 10px;
+        }
+
+        .navbar-toggler:focus {
+            box-shadow: none;
+        }
+
+        /* Change the 3-line icon color to white */
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+        }
+
+        .navbar-toggler {
+            box-shadow: 0 0 15px rgba(0, 245, 255, 0.6);
+        }
+
+        /* ===== Reduce Hero Paragraph Text Size on Mobile ===== */
+        @media (max-width: 576px) {
+            .hero-section p.fs-5 {
+                font-size: 0.9rem !important;
+                line-height: 1.6;
+                margin-bottom: 1.2rem;
+                padding: 0 8px;
             }
         }
     </style>
@@ -955,7 +1032,8 @@
                                     </div>
                                 </div>
                                 <div class="text-center mt-4">
-                                    <a href="https://wa.me/918805423326?text=Hi%2C%20I%20am%20interested%20in%20IT%20LaunchPad%20workshop" target="_blank" class="lecture-btn">
+                                    <a href="https://wa.me/918805423326?text=Hi%2C%20I%20am%20interested%20in%20IT%20LaunchPad%20workshop"
+                                        target="_blank" class="lecture-btn">
                                         <i class="fas fa-calendar-check me-2"></i>Request Session
                                     </a>
                                 </div>
@@ -1042,9 +1120,9 @@
                             <span>Remote All Over India</span>
                         </div>
                         <div class="social-links mt-4">
-                            <a href="https://www.linkedin.com/company/nexora-tech" target="_blank"><i
+                            <a href="https://www.linkedin.com/company/nexora-tech-31/" target="_blank"><i
                                     class="fab fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/nexora__tech/" target="_blank"><i
+                            <a href="https://www.instagram.com/nexoratech_official18/" target="_blank"><i
                                     class="fab fa-instagram"></i></a>
                             <a href="#"><i class="fab fa-twitter"></i></a>
                             <a href="#"><i class="fab fa-facebook"></i></a>
